@@ -1,0 +1,42 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Element Selectors */
+body {
+    position: relative;
+    font-family: monospace, sans-serif;
+    font-size: 20px;
+    background-color: #37C8E1;
+    color: #24a37d;
+}
+
+h1,
+h2 {
+    margin: 20px;
+}
+
+main {
+    padding: 60px 0;
+}
+
+li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #24a37d;
+}
+
+header,
+footer {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: #265fd8;
+}
