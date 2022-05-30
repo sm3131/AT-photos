@@ -10,6 +10,9 @@ body {
     font-size: 20px;
     background-color: #245cd3;
     color: #113788;
+    min-height:100vh;
+    display:flex;
+    flex-direction: column;
 }
 
 nav {
@@ -38,8 +41,8 @@ a:hover {
 
 main {
     background-image: url("../images/ocean-bg.PNG");
-    background-position: left;
-    height: 100vh;
+    background-repeat: no-repeat;
+    height: 90vh;
     width: 100%;
 }
 
@@ -48,9 +51,11 @@ main {
     background-position: right;
     background-color: white;
     border-radius: 15px;
-    height: 350px;
-    width: 20%;
+    height: 450px;
+    width: 350px;
     margin: 50px;
+    position:absolute;
+    top:20%;
 }
 
 .blurb {
@@ -60,6 +65,9 @@ main {
     height: 450px;
     width: 60%;
     margin: 40px;
+    position:absolute;
+    left: 35%;
+    top:20%;
 }
 
 hr.rounded {
@@ -72,6 +80,7 @@ footer {
     text-align: center;
     padding: 20px 0;
     height: 8vh;
+    margin-top: auto;
 }
 
 /* 
