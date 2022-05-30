@@ -26,6 +26,11 @@ li {
     text-decoration: none;
 }
 
+a {
+    text-decoration: none;
+    color: #113788;
+}
+
 a:hover {
     cursor: pointer;
     color: white;
